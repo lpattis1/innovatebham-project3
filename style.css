@@ -13,7 +13,7 @@ html {
 body {
   line-height: 1.7;
   font-family: "Roboto", sans-serif;
-  background-color: #dadada;
+  background-color: #f0f0f0;
 }
 
 li {
@@ -24,7 +24,7 @@ li {
   outline-width: 0;
 }
 
-/* main content */
+/* text and body styling */
 
 h2,
 p,
@@ -34,21 +34,56 @@ p,
 
 h2 {
     font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
 }
 
 p {
     font-size: 1.6rem;
+    margin-bottom: 1rem;
 }
 
 a {
     text-decoration: none;
-    color: blue;
-    font-size: 1.5rem;
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 1rem;
   }
 
 
 a:hover {
     cursor: pointer;
-    color: red;
+    color: black;
     font-weight: 600;
 }
+
+/* box styling */
+
+.boxes {
+    margin-bottom: 2rem;
+    padding: 3rem 2rem;
+    border: .1rem solid black;
+    border-radius: .5rem;
+    width: 60rem;
+}
+
+.boxes:first-child {
+    margin-top: 5vh;
+}
+
+#box1 {
+    background: #FF9AA2;
+}
+
+#box2 {
+    background: #E2F0CB;
+}
+
+#box3 {
+    background: #FFDAC1;
+}
+
+#box4 {
+    background: #C7CEEA;
+}
+
