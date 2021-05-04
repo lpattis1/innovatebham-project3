@@ -78,9 +78,9 @@ a:hover {
 
 #box2 {
     background: #E2F0CB;
-    position: relative;
+    position: absolute;
     left: 61rem;
-    bottom: 32.1rem;
+    bottom: 67.3rem;
 }
 
 #box3 {
