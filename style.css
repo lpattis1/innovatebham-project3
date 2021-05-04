@@ -1,32 +1,54 @@
 /* global styles */
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  html {
-    font-size: 62.5%;
-  }
-  
-  body {
-    line-height: 1.7;
-    font-family: "Roboto", sans-serif;
-    background-color: #dadada;
-  }
-  
-  a {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 1.7;
+  font-family: "Roboto", sans-serif;
+  background-color: #dadada;
+}
+
+li {
+  list-style: none;
+}
+
+:focus {
+  outline-width: 0;
+}
+
+/* main content */
+
+h2,
+p,
+.readme-wrapper {
+  text-align: center;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+a {
     text-decoration: none;
-  }
-  
-  li {
-    list-style: none;
-  }
-  
-  :focus {
-    outline-width: 0;
+    color: blue;
+    font-size: 1.5rem;
   }
 
-  .boxes {
-      text-align: center;
-  }
+
+a:hover {
+    cursor: pointer;
+    color: red;
+    font-weight: 600;
+}
