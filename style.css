@@ -65,6 +65,7 @@ a:hover {
     border: .1rem solid black;
     border-radius: .5rem;
     width: 60rem;
+    display: block;
 }
 
 .boxes:first-child {
@@ -77,6 +78,9 @@ a:hover {
 
 #box2 {
     background: #E2F0CB;
+    position: relative;
+    left: 61rem;
+    bottom: 32.1rem;
 }
 
 #box3 {
