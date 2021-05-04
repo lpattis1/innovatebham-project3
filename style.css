@@ -33,59 +33,118 @@ p,
 }
 
 h2 {
-    font-size: 3rem;
-    font-weight: 800;
-    margin-bottom: 1rem;
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
 }
 
 p {
-    font-size: 1.6rem;
-    margin-bottom: 1rem;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
 }
 
 a {
-    text-decoration: none;
-    color: white;
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
-
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
 
 a:hover {
-    cursor: pointer;
-    color: black;
-    font-weight: 600;
+  cursor: pointer;
+  color: black;
+  font-weight: 600;
 }
 
 /* box styling */
 
 .boxes {
-    margin-bottom: 2rem;
-    padding: 3rem 2rem;
-    border: .1rem solid black;
-    border-radius: .5rem;
-    width: 60rem;
-    display: block;
+  margin-bottom: 2rem;
+  padding: 3rem 2rem;
+  border: 0.1rem solid black;
+  border-radius: 0.5rem;
+  width: 60rem;
+  display: block;
 }
 
 .boxes:first-child {
-    margin-top: 5vh;
+  margin-top: 5vh;
 }
 
 #box1 {
-    background: #FF9AA2;
+  background: #ff9aa2;
 }
 
 #box2 {
-    background: #E2F0CB;
-   
+  background: #e2f0cb;
 }
 
 #box3 {
-    background: #FFDAC1;
+  background: #ffdac1;
 }
 
 #box4 {
-    background: #C7CEEA;
+  background: #c7ceea;
 }
 
+.inner-box {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 5rem;
+  background: white;
+  position: absolute;
+  left: 15rem;
+}
+
+/* Styling specifically */
+h1 {
+  color: #ff9aa2;
+}
+
+.original {
+  color: #869edc;
+}
+
+.additional {
+  color: #dfa9d6;
+}
+
+#show1 {
+  color: #9369c6;
+}
+
+#show2 {
+  color: #54b5d2;
+}
+
+#show3 {
+  color: #b7d332;
+}
+
+#show4 {
+  color: #f9af15;
+}
+
+#show5 {
+  color: #ee4c52;
+}
+
+ul {
+  color: #8635d5;
+  font-size: 1.6rem;
+}
+
+.star {
+  color: #f24982;
+}
+
+#wars {
+    color: #2DC574;
+}
+
+.list {
+    border: .2rem solid black;
+    margin-top: 2rem;
+    width: 40rem;
+    text-align: center;
+}
